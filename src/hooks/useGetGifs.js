@@ -9,7 +9,6 @@ export const useGetGifs = (category) => {
   }, [category]);
 
   useEffect(() => {
-    console.log('hi');
     if (state.load) {
       document.querySelector("#grid-card").classList.remove("opacity-0");
       document.querySelector("#grid-card").classList.add("opacity-100");
