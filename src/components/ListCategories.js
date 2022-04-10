@@ -1,13 +1,12 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import ContainerCategory from './ContainerCategory';
 
 const ListCategories = ({ categories }) => {
-
   return (
     <Fragment>
-      {categories.map((category) => (
-        <ContainerCategory category={category} key={category}/>
+      {categories.map(({category, id}) => (
+        <ContainerCategory category={category} key={id} />
       ))}
     </Fragment>
   );
