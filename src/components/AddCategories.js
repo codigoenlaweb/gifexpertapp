@@ -21,6 +21,7 @@ function AddCategories({ setCategories, categories }) {
       <form
         className="px-4 pt-2 pb-2 md:pt-4 flex flex-wrap justify-start"
         onSubmit={handleSubmit}
+        data-testid='form'
       >
         <input
           className="w-3/5 max-w-xs bg-color-secondary rounded-sm px-2 text-white font-bold focus:outline-color-primary placeholder:text-gray-300"
@@ -29,6 +30,7 @@ function AddCategories({ setCategories, categories }) {
           onChange={changeValue}
           value={value}
           id="input-category"
+          data-testid='input-category'
         />
         <input
           className="bg-white px-2 rounded ml-2 text-color-secondary border-2 border-solid border-color-secondary font-bold transition duration-150 ease-linear hover:text-white hover:bg-color-secondary focus:outline-none focus:text-white focus:bg-color-secondary"
