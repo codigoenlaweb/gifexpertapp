@@ -3,8 +3,8 @@ import AddCategories from "./components/AddCategories";
 import ListCategories from "./components/ListCategories";
 import {AnyCategory} from "./components/AnyCategory"
 
-function GifExpertApp() {
-  const [categories, setCategories] = useState([]);
+function GifExpertApp({defaultGifs = [] }) {
+  const [categories, setCategories] = useState(defaultGifs);
   return (
     <Fragment>
       <header className="border-b-2 border-solid border-color-secondary">
@@ -19,7 +19,7 @@ function GifExpertApp() {
         </nav>
       </header>
       <AnyCategory categories={categories}/>
-      <ListCategories categories={categories} />
+      <ListCategories categories={categories}/>
     </Fragment>
   );
 }

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const ContainerCategory = ({ category }) => {
   return (
-    <section className="px-4 py-2 md:py-4 mb-2 max-w-screen-xl mx-auto">
+    <section data-testid="list-categories" className="px-4 py-2 md:py-4 mb-2 max-w-screen-xl mx-auto">
       <h2 className="text-lg md:text-xl font-bold text-color-secondary">
         {category}
       </h2>

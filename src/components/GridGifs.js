@@ -9,7 +9,8 @@ const GridGifs = ({ category }) => {
   return (
     <Fragment>
       {!load && (
-        <svg
+        <svg 
+          data-testid="load"
           className="mx-auto transition duration-150 ease-linear animate-spin"
           xmlns="http://www.w3.org/2000/svg"
           height="52px"
