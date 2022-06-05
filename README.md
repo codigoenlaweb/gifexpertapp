@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+<h1 align="center">gifexpertapp</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![View project](https://github.com/codigoenlaweb/gifexpertapp/tree/master/src/assets/images/imgreadme1.jpeg)
 
-## Available Scripts
+<h4 align="center">Your website to see your favorite gif</h4>
+<div align="center">
+    <a align="center" href="https://gifexpertapp-react.netlify.app">View Demo</a>
+</div>
 
-In the project directory, you can run:
+## Table of Contents:
+- About The Project
+- Installation
+- Testing
+- Author
+- Acknowledgments
 
-### `npm start`
+## About The Project.
+#### Description
+**gif expert app** is a **SPA** where you can search and find your favorite gifs of whatever. Cabe destacar que la **API** que se consume para este proyecto es [GIPHY](https://developers.giphy.com/ "GIPHY"),  is very popular because it is used by **Skype**, **WhatsApp**, **Facebook** and other big companies to allow your aunt to send you a heart with a teddy bear saying that she loves you very much.
+#### Purpose of this project.
+This project was carried out with the purpose of putting into practice the knowledge learned about the communication between components and requests to the **API**, in addition to said request to the **API** will be integrated into a **Custom Hook**
+#### built with.
+For this project I use  [ Create React App](https://create-react-app.dev/ " Create React App") and for the layout of styles it was used [TailwindCSS](https://tailwindcss.com/ "TailwindCSS").
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/codigoenlaweb/gifexpertapp.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+## Testing.
+Este proyecto cuenta con test para saber si todo lo implementado funciona correctamente.
+#### Implementar test
+1. Clone the repo
+   ```sh
+   npm test
+   ```
+1. Clone the repo
+   ```sh
+   a
+   ```
+## Author.
+Jesus Olmos - [Linkedin](https://www.linkedin.com/in/jesus-armando-olmos-olmos-607748228/ "Linkedin") - olmosjesusarmando@gmail.com
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments.
+Thanks to [Fernando herrera](https://github.com/Klerith "Fernando herrera") course for helping me advance and progress as a Front-end web developer, with such good mentoring and advice and quality content.
+[course link](https://www.udemy.com/course/react-cero-experto/ "course link")

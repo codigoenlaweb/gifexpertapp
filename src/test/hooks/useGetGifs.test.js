@@ -8,8 +8,8 @@ describe("use get gifs", () => {
   const categoryData = 'one punch'
 
   test("return state initial", () => {
-    const algo = useGetGifs('one punch');
-    console.log(algo);
+    // const algo = useGetGifs('one punch');
+    // console.log(algo);
   });
 
 });
