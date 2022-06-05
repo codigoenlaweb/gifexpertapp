@@ -1,6 +1,6 @@
 <h1 align="center">gifexpertapp</h1> 
 
-![View project](https://github.com/codigoenlaweb/gifexpertapp/tree/master/src/assets/images/imgreadme1.jpeg)
+![View project](https://github.com/codigoenlaweb/gifexpertapp/blob/master/src/assets/images/imgreadme1.jpeg)
 
 <h4 align="center">Your website to see your favorite gif</h4>
 <div align="center">
