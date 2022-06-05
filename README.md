@@ -16,7 +16,7 @@
 
 ## About The Project.
 #### Description
-**gif expert app** is a **SPA** where you can search and find your favorite gifs of whatever. Cabe destacar que la **API** que se consume para este proyecto es [GIPHY](https://developers.giphy.com/ "GIPHY"),  is very popular because it is used by **Skype**, **WhatsApp**, **Facebook** and other big companies to allow your aunt to send you a heart with a teddy bear saying that she loves you very much.
+**Gif expert app** is a **SPA** where you can search and find your favorite gifs of whatever. It should be noted that the **API** that is consumed for this project is [GIPHY](https://developers.giphy.com/ "GIPHY"),  is very popular because it is used by **Skype**, **WhatsApp**, **Facebook** and others big companies to allow your aunt to send you a heart with a teddy bear saying that she loves you very much.
 #### Purpose of this project.
 This project was carried out with the purpose of putting into practice the knowledge learned about the communication between components and requests to the **API**, in addition to said request to the **API** will be integrated into a **Custom Hook**
 #### built with.
@@ -32,13 +32,13 @@ For this project I use  [ Create React App](https://create-react-app.dev/ " Crea
    npm install
    ```
 ## Testing.
-Este proyecto cuenta con test para saber si todo lo implementado funciona correctamente.
+This project has a test to see if everything implemented works correctly.
 #### Implementar test
-1. Clone the repo
+1. type in terminal...
    ```sh
    npm test
    ```
-1. Clone the repo
+2. and subsequently
    ```sh
    a
    ```
