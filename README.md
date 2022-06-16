@@ -19,7 +19,7 @@
 **Gif expert app** is a **SPA** where you can search and find your favorite gifs of whatever. It should be noted that the **API** that is consumed for this project is [GIPHY](https://developers.giphy.com/ "GIPHY"),  is very popular because it is used by **Skype**, **WhatsApp**, **Facebook** and others big companies to allow your aunt to send you a heart with a teddy bear saying that she loves you very much.
 #### Purpose of this project.
 This project was carried out with the purpose of putting into practice the knowledge learned about the communication between components and requests to the **API**, in addition to said request to the **API** will be integrated into a **Custom Hook**
-#### built with.
+#### Built with.
 For this project I use  [ Create React App](https://create-react-app.dev/ " Create React App") and for the layout of styles it was used [TailwindCSS](https://tailwindcss.com/ "TailwindCSS").
 
 ## Installation.
